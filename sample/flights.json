@@ -1,0 +1,18 @@
+{
+  "budget": 3,
+  "bad_key_code": "E_BAD_KEY",
+  "bad_result_code": "E_BAD_RESULT",
+  "no_flight_code": "E_NO_FLIGHT",
+  "event_error_code": "E_BAD_EVENT",
+  "state": { "flying": [], "done": [], "merged": 0, "asks_n": 0, "ledger": [], "applied": [] },
+  "events": [
+    { "id": 1, "kind": "ask", "key": "a" },
+    { "id": 2, "kind": "ask", "key": "a" },
+    { "id": 3, "kind": "ask", "key": "b" },
+    { "id": 4, "kind": "done", "key": "a", "result": 7 },
+    { "id": 5, "kind": "ask", "key": "b" },
+    { "id": 6, "kind": "ask", "key": "c" },
+    { "id": 7, "kind": "done", "key": "b", "result": 4 },
+    { "id": 8, "kind": "ask", "key": "c" }
+  ]
+}
